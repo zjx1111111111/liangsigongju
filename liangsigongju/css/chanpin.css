@@ -1,0 +1,276 @@
+/* body {
+    height: 2000px;
+} */
+
+
+/* 导航栏部分 */
+
+.navs .dropdown {
+    background: none;
+}
+
+.navs .dropdown a {
+    color: black;
+}
+
+.navs .navitems li:nth-child(2) {
+    background: #f0552c;
+}
+
+.navs .navitems li:nth-child(2) a {
+    color: #FFF;
+}
+
+.navs .navitems li:first-of-type a {
+    color: black;
+}
+
+
+/* banner分区 */
+
+.banner {
+    width: 100%;
+    height: 480px;
+    background: url(../img/banner2.jpg)center center no-repeat;
+}
+
+.banner .banner_text {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    /* margin-top: 15%; */
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+
+.banner .banner_text h2 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.banner .banner_text h2 .banner_t {
+    font-size: 46px;
+}
+
+.banner .banner_text b {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background: #FFF;
+    margin: 20px 0;
+}
+
+.banner .banner_text p {
+    font-size: 36px;
+}
+
+.banner .banner_text i {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(24, 25, 27, .8) url(../img/xia.png) no-repeat center;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+
+/* content分区 */
+
+.content {
+    background: url(../img/bg1.png) repeat center;
+    padding-bottom: 50px;
+    padding-top: 35px;
+    overflow: hidden;
+}
+
+.content .wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+.content .chanpin-contet-left {
+    width: 20%;
+}
+
+.content .chanpin-contet-left .title {
+    width: 92%;
+    height: auto;
+    padding: 2% 2% 2% 6%;
+    display: block;
+    font-weight: normal;
+    background: #f0552c;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content .chanpin-contet-left .title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.content .chanpin-contet-left .x-text {
+    background: #fff;
+    padding-bottom: 15px;
+}
+
+.content .chanpin-contet-left .x-text .x-text2 {
+    padding: 10px 15px 0px 15px;
+    overflow: hidden;
+}
+
+.content .chanpin-contet-left .x-text2 li {
+    margin-top: 5px;
+    font-weight: normal;
+    line-height: 20px;
+    border: 1px solid #f3f3f3;
+    border-left: 3px solid #f3f3f3;
+}
+
+.content .chanpin-contet-left .x-text2 span {
+    float: right;
+    right: 10px;
+    font-size: 20px;
+}
+
+.chanpin-contet-left .x-text2 li a {
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    height: auto;
+    line-height: 20px;
+    padding: 10px 20px 10px 15px;
+}
+
+.chanpin-contet-left .x-text2 li a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+
+.content .chanpin-contet-right {
+    float: right;
+    width: 76%;
+    background: #fff;
+}
+
+.content .chanpin-contet-right .right-title {
+    width: 96%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    background: #fefefe;
+    padding: 2%;
+    border-bottom: #ececec 1px solid;
+}
+
+.content .chanpin-contet-right .right-title .mbx {
+    font-size: 14px;
+    float: right;
+    width: 550px;
+    text-align: right;
+    line-height: 36px;
+}
+
+.content .sousuo {
+    width: 450px;
+    margin-bottom: 35px;
+    float: right;
+    margin-top: 35px;
+}
+
+.content .sousuo_input {
+    width: 370px;
+    float: left;
+    border: 1px solid #ddd;
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+    height: 38px;
+    line-height: 38px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    padding: 0 35px;
+    background: url(../img/iconfont-sousuo.png) no-repeat 12px center;
+    background-size: 4%;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.content .sousuo_btn {
+    width: 80px;
+    float: left;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-radius: 0 4px 4px 0;
+    height: 38px;
+    line-height: 38px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #e5e5e5;
+    outline: none;
+    font-family: "微软雅黑";
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+}
+
+.content .chanpin-contet-right .pro_list li {
+    float: left;
+    width: 260px;
+    padding: 0 8px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content .pro_list li a {
+    display: inline-block;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.content .pro_list li .pic {
+    width: 260px;
+    height: 200px;
+    position: relative;
+}
+
+.content .pro_list li .title {
+    padding: 15px 15px 35px;
+    text-align: center;
+}
+
+.content .pro_list li .pic>img {
+    width: 260px;
+    height: 200px;
+}
+
+.content .cont-news {
+    margin-left: 40px;
+}
+
+.content .fenye {
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 250px;
+}
+
+.content .fenye a {
+    color: #555;
+    margin: 0px 3px 10px 3px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    background: #EEEEEE;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Arial';
+}

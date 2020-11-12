@@ -1,0 +1,100 @@
+/* 遗留 */
+
+.Navbar .wrap .lefthand a:nth-of-type(4) {
+    color: #87ceeb;
+    background-color: aliceblue;
+}
+
+
+/* 右侧内容分区 */
+
+.Navbar .wrap .content {
+    width: 1233px;
+    height: 596px;
+    margin-left: 130px;
+    border: 2px solid #F0F0F0;
+    border-radius: 30px;
+    /* background-color: mintcream; */
+}
+
+.Navbar .wrap .content .offside {
+    padding-left: 100px;
+}
+
+.Navbar .wrap .content .offside p {
+    padding-top: 30px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+.Navbar .wrap .content .offside .sousuo {
+    margin-top: 10px;
+}
+
+.Navbar .wrap .content .offside .sousuo input {
+    /* text-indent: 1em; */
+    height: 24px;
+}
+
+.Navbar .wrap .content .offside .sousuo button {
+    width: 100px;
+    height: 24px;
+    border: 1px solid #808080;
+    background-color: #fafafa;
+    color: #696969;
+}
+
+.Navbar .wrap .content .offside .sousuo .tianjia {
+    margin-left: 20px;
+}
+
+.Navbar .wrap .content .offside .sousuo button:hover {
+    color: #87ceeb;
+    border: 1px solid #87ceeb;
+}
+
+.Navbar .wrap .content .offside .more {
+    display: inline-block;
+    margin-top: 15px;
+    width: 1000px;
+    height: auto !important;
+    height: 200px;
+    /*假定最低高度是200px*/
+    min-height: 200px;
+    /* border: 1px solid #dcdcdc; */
+}
+
+.Navbar .content .offside .more table.gridtable {
+    width: 850px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    color: #696969;
+    border-width: 1px;
+    border-color: #696969;
+    border-collapse: collapse;
+}
+
+.Navbar .offside .more table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #696969;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.Navbar .offside .more table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #696969;
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.Navbar .offside .more table a {
+    color: #000000;
+}
+
+.Navbar .offside .more table a:hover {
+    color: #87ceeb;
+}

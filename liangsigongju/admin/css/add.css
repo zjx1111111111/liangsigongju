@@ -1,0 +1,55 @@
+/* 遗留 */
+
+.Navbar .wrap .lefthand a:nth-of-type(2) {
+    color: #87ceeb;
+    background-color: aliceblue;
+}
+
+
+/* 右侧内容分区 */
+
+.Navbar .wrap .content {
+    width: 1233px;
+    height: 596px;
+    margin-left: 130px;
+    border: 2px solid #F0F0F0;
+    border-radius: 30px;
+    /* background-color: mintcream; */
+}
+
+.Navbar .wrap .content .offside {
+    padding-left: 100px;
+    overflow: hidden;
+}
+
+.Navbar .wrap .content .offside p {
+    padding-top: 30px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+.Navbar .wrap .content .offside .add {
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+.Navbar .content .offside .add {
+    font-size: 16px;
+    color: #696969;
+    padding-top: 20px;
+    float: left;
+}
+
+.Navbar .content .offside .mbx {
+    font-size: 14px;
+    float: left;
+    width: 550px;
+    text-align: left;
+    line-height: 36px;
+    width: 100%;
+}
+
+.mbx a:hover {
+    color: #000000;
+}

@@ -1,0 +1,79 @@
+{
+  "id": "1994435",
+  "name": "p1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5776854",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "7171181",
+      "name": "图片管理",
+      "font_class": "tupian",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "9241149",
+      "name": "新闻",
+      "font_class": "iconzhengli_xinwen",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "2742566",
+      "name": "提醒",
+      "font_class": "tixing",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "5640058",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "31137",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "784287",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1327070",
+      "name": "修改信息",
+      "font_class": "icon-xiugai",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "6542362",
+      "name": "ico_运营管理_员工信息查询",
+      "font_class": "ico_yunyingguanli_yuangongxinxichaxun",
+      "unicode": "e8c2",
+      "unicode_decimal": 59586
+    },
+    {
+      "icon_id": "8094228",
+      "name": "编辑:修改",
+      "font_class": "bianjixiugai",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    }
+  ]
+}

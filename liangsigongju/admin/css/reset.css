@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*清除元素默认的内外边距  */
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+/*让所有斜体 不倾斜*/
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/*去掉列表前面的小点*/
+
+li {
+    list-style: none;
+}
+
+
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+    /* 只对行内标签跟行内块标签生效 */
+}
+
+
+/*让button 按钮 变成小手*/
+
+button {
+    cursor: pointer;
+}
+
+
+/*取消链接的下划线*/
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 版心区域 */
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 快捷导航 */
+
+.shourcut {
+    width: 100%;
+    height: 48px;
+    background: black;
+    line-height: 48px;
+}
+
+.shourcut .login {
+    width: 240px;
+    height: 48px;
+    /* background: skyblue; */
+}
+
+.shourcut .login a {
+    margin-right: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.shourcut .nav {
+    width: 320px;
+    height: 48px;
+    /* background: pink; */
+}
+
+.shourcut .nav li {
+    float: left;
+    padding: 0 12px;
+    line-height: 48px;
+}
+
+.shourcut .nav li.line {
+    width: 1px;
+    height: 12px;
+    float: left;
+    margin-top: 18px;
+    background: #666;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+/* 搜索分区 */
+
+.search {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: floralwhite;
+    /* #FCFCFC */
+}
+
+.search .wrap .logo {
+    margin-left: -25px;
+    line-height: 70px;
+}
+
+.search .wrap .logo {
+    width: 70px;
+}
+
+.search .wrap .logo img {
+    margin-top: 16px;
+}
+
+.search .wrap .tupiao {
+    width: 200px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.search .wrap .tupiao a:hover {
+    color: #87ceeb;
+}
+
+.search .wrap .tupiao li {
+    float: left;
+    padding: 0 12px;
+    line-height: 70px;
+}
+
+.search .wrap .tupiao li .iconfont {
+    font-size: 18px;
+}
+
+.search .wrap .tupiao li.line {
+    width: 1px;
+    height: 12px;
+    float: left;
+    line-height: 70px;
+    margin-top: 28px;
+    background: #666;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+/* 内容分区 */
+
+
+/* 左侧导航栏分区 */
+
+.Navbar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Navbar .wrap .lefthand {
+    width: 300px;
+    margin-left: -170px;
+    overflow: hidden;
+    background-color: mintcream;
+    /* background-color: lightblue; */
+    height: 600px;
+}
+
+.Navbar .wrap .lefthand a {
+    width: 300px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    color: #607d8b;
+}
+
+.Navbar .wrap .lefthand a .iconfont {
+    padding-left: 50px;
+}
+
+.Navbar .wrap .lefthand a:hover {
+    color: #87ceeb;
+    background-color: #fafafa;
+}
+
+.Navbar .wrap .lefthand a li {
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.Navbar .lefthand #g33 {
+    width: 300px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 120px;
+    font-weight: bold;
+}

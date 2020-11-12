@@ -1,0 +1,404 @@
+/*清除元素默认的内外边距  */
+
+
+/*第一步 */
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+
+/*第二步 */
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 8px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+/*让所有斜体 不倾斜*/
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/*去掉列表前面的小点*/
+
+li {
+    list-style: none;
+}
+
+
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+    /* 只对行内标签跟行内块标签生效 */
+}
+
+
+/*让button 按钮 变成小手*/
+
+button {
+    cursor: pointer;
+}
+
+
+/*取消链接的下划线*/
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 版心区域 */
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 快捷导航 */
+
+.shourcut {
+    width: 100%;
+    height: 28px;
+    background: #f1f1f1;
+    line-height: 28px;
+}
+
+.shourcut .login {
+    width: 240px;
+    height: 28px;
+    /* background: skyblue; */
+}
+
+.shourcut .login a {
+    margin-right: 40px;
+}
+
+.shourcut .nav {
+    width: 642px;
+    height: 28px;
+    /* background: pink; */
+}
+
+.shourcut .nav li {
+    float: left;
+    padding: 0 40px;
+    line-height: 28px;
+}
+
+.item_mobile a {
+    color: #f0552c;
+    ;
+}
+
+.shourcut .nav li.line {
+    width: 1px;
+    height: 14px;
+    float: left;
+    margin: 7px 12px 0 0;
+    background: #ddd;
+    overflow: hidden;
+    padding: 0;
+}
+
+.item_mobile .iconfont {
+    font-size: 16px;
+    color: #f0552c;
+    ;
+}
+
+
+/* 搜索分区 */
+
+.search {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+
+.search .wrap {
+    height: 85px;
+    margin-top: 13px;
+}
+
+.search .logo {
+    width: 165px;
+    height: 85px;
+    /*通过背景图的实现去优化logo*/
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.search .search-center {
+    width: 650px;
+    height: 110px;
+    margin-top: 13px;
+    margin-left: 124px;
+}
+
+.search .soso {
+    overflow: hidden;
+}
+
+.search .soso>form input:first-child {
+    width: 423px;
+    height: 38px;
+    border: solid #f0552c;
+    padding: 7px 5px;
+    outline: 0 none;
+    color: #999;
+    font-size: 12px;
+}
+
+.search .soso>form input:last-child {
+    width: 100px;
+    height: 38px;
+    border: 0 none;
+    border: solid #f0552c;
+    background: #f0552c;
+    font-size: 16px;
+    color: #fff;
+}
+
+.search .nav-list {
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+}
+
+.search .nav-list li {
+    float: left;
+    padding: 0 8px;
+}
+
+.search .nav-list li a {
+    color: #999;
+}
+
+.search .nav-list li:not(.last) {
+    background: url(../img/line.png) no-repeat right center;
+}
+
+.search .nav-list li:hover a {
+    color: #f0552c;
+}
+
+.search .nav-list li.current a {
+    color: #f0552c;
+}
+
+.search .phone {
+    margin-top: 23px;
+    width: 138px;
+    height: 45px;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    padding-top: 0px;
+    color: #666;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.search .phone #gouwu {
+    font-size: 30px;
+}
+
+.search .phone .lxdh {
+    font-size: 16px;
+}
+
+.phone .iconfont:first-child {
+    color: #f0552c;
+}
+
+
+/* 导航分区 */
+
+.navs {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    border-bottom: 2px solid #f0552c;
+    /* background: #f0552c; */
+}
+
+.navs .dropdown {
+    width: 110px;
+    height: 38px;
+    background: #f0552c;
+    text-align: center;
+    color: #fff;
+}
+
+.navs .dropdown a {
+    color: #fff;
+}
+
+.navs .dropdown a:hover {
+    color: #999;
+}
+
+.navs .navitems {
+    width: 650px;
+    height: 38px;
+}
+
+.navs .navitems li {
+    float: left;
+    padding: 0 19px;
+}
+
+.navs .navitems li a {
+    color: black;
+}
+
+.navs .navitems li a:hover {
+    color: #999;
+}
+
+
+/* 尾部 */
+
+.footer {
+    width: 100%;
+    height: 290px;
+    background: #f5f5f5;
+}
+
+.footer ul {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ededed;
+}
+
+
+/* 购物指南 */
+
+.footer .guide {
+    width: 100%;
+    height: 186px;
+}
+
+.footer .guide ul {
+    width: 200px;
+    height: 186px;
+    float: left;
+    padding-left: 52px;
+    box-sizing: border-box;
+}
+
+.footer .guide ul li {
+    width: 100%;
+    height: 20xp;
+    line-height: 20px;
+}
+
+.footer .guide ul li:first-of-type {
+    font-size: 16px;
+    margin: 20px 0px 15px 0px;
+}
+
+.footer .guide ul:last-of-type {
+    padding-left: 0px;
+}
+
+.footer .guide ul:last-of-type li:first-of-type,
+.footer .guide ul:last-of-type li:last-of-type {
+    padding-left: 52px;
+    box-sizing: border-box;
+}
+
+.footer .guide ul:last-of-type li:nth-of-type(2) {
+    width: 94px;
+    height: 97px;
+    background: url(../upload/erweima.png) no-repeat;
+    margin-left: 40px;
+}
+
+
+/* 联系我们 */
+
+.footer .about ol {
+    width: 1024px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.footer .about li {
+    float: left;
+    padding: 0 16px;
+    line-height: 52px;
+}
+
+.footer .about p {
+    text-align: center;
+}

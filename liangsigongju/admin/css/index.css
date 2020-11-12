@@ -1,0 +1,56 @@
+/* 遗留 */
+
+.Navbar .wrap .lefthand a:first-of-type {
+    color: #87ceeb;
+    background-color: aliceblue;
+}
+
+
+/* 右侧内容分区 */
+
+.Navbar .wrap .content {
+    width: 1233px;
+    height: 596px;
+    margin-left: 130px;
+    border: 2px solid #F0F0F0;
+    border-radius: 30px;
+    /* background-color: mintcream; */
+}
+
+.Navbar .wrap .content p:first-of-type {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Navbar .wrap .content p:nth-of-type(2) {
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.Navbar .wrap .content a {
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 515px;
+}
+
+.Navbar .wrap .content #denglu {
+    padding-top: 0px;
+    font-size: 18px;
+    color: #607d8b;
+    font-weight: bold;
+    border: 2px solid #607d8b;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.Navbar .wrap .content #denglu:hover {
+    background-color: #fafafa;
+    border: 2px solid #607d8b;
+    color: #87ceeb;
+    font-size: 20px;
+}
