@@ -1,0 +1,6 @@
+1.下载phpStudy并安装；
+2.把本系统源代码文件夹文件夹放进phpStudy根目录www文件夹里，并把文件名修改为英文；
+3.修改conn.php文件里的链接数据库的地址，用户和密码（一般是localhost，root，root）；
+4.启动phpStudy，把sql文件导入数据库；
+5.打开谷歌浏览器，输入http://localhost/www/文件路径/index.php，进入前台页面；http://localhost/www/文件路径/adimn/login.php，此为后台登录页面；
+6.输入管理员账号密码（后台账号为1825，密码为123456）进入后台首页。
